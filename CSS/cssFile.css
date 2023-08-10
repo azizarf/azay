@@ -1,13 +1,9 @@
-/* css of login */
-body{
-  background-color: #2196F3;
-}
-
 /* css of cards */
 body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  background-color: whitesmoke;
 }
 #allCards {
   margin-top: 50px;
@@ -67,7 +63,7 @@ body {
 
 
 .topnav a.active {
-  background-color: #2196F3;
+  background-color: orange;
   color: white;
 }
 
