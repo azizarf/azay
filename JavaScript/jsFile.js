@@ -99,18 +99,18 @@ $("#log").on("click",function(){
   var datashop = [
     { 
   name:'SANDALES À TALON MOYEN WITH MORS FOR WOMEN',
-  taille: 38,
-  price: 400,
+  taille:38,
+  price:400,
   color:'black',
-  description: 'natural shoe, made of leather,cover half foot',
+  description:'natural shoe, made of leather,cover half foot',
   type:'shoes',
   img:'../imgs/1.jpg',
-  gender:'woman',
-  ref: 1
+  gender:'women',
+  ref:1
   },
   {name: 'MOCASSINS GUCCI JORDAAN CUIR',
-  taille: 38,
-  price: 700,
+  taille:38,
+  price:700,
   color:'black',
   description:'The classic spirit of this model is stimulated by the contrast between the architecture of the shoe and the thickness of a highly structured overhanging sole.',
   type:'shoes',
@@ -120,7 +120,7 @@ $("#log").on("click",function(){
   },
   {name: 'RED T-SHIRT FOR MAN',
   taille:'xl',
-  price: 250,
+  price:250,
   color:'red',
   description:'Plain Red 100% Cotton short Sleeve T Shirt · Fit Type: Regular Fit · 180GSM, 100% Premium Cotton (Bio-Washed & Pre-Shrunk for Minimum shrinkage)',
   type:'t-shirt',
@@ -128,25 +128,25 @@ $("#log").on("click",function(){
   gender:'man',
   ref: 3
   },
-  {name: 'YELLOW-GREEN WITHOUT BAND',
+  {name:'YELLOW-GREEN WITHOUT BAND',
   taille:'m',
-  price: 320,
+  price:320,
   color:'yellow-green',
   description:'s Crew Neck full Sleeve Silhouette T-Shirt (Neon Yellow). SKU D0250P03500C. Shipping calculated at checkout.',
   type:'t-shirt',
   img:'../imgs/4.jpeg',
   gender:'woman',
-  ref: 4
+  ref:4
   },
-  {name: 'MOCASSINS GUCCI JORDAAN LAIN',
+  {name:'MOCASSINS GUCCI JORDAAN LAIN',
   taille:38,
   price:190,
-  color: 'orange',
+  color:'orange',
   description:'Vibrant yellow color that exudes energy and optimism ,High-quality construction for comfort and durability',
   type:'shoe',
   img:'../imgs/5.jpg',
   gender:'woman',
-  ref: 5
+  ref:5
   },
   {name: 'BASKETT TIMBERLAND',
   taille:37,
@@ -158,7 +158,7 @@ $("#log").on("click",function(){
   gender:'woman',
   ref: 6
   },
-  {name: 'WHITE DEBARDER',
+  {name:'WHITE DEBARDER',
   taille:'l-xl-xxl',
   price:12,
   color:'white',
@@ -166,9 +166,9 @@ $("#log").on("click",function(){
   type:'t-shirt',
   img:'../imgs/7.jpg',
   gender:'man',
-  ref: 7
+  ref:7
   },
-  {name: 'BLACK MOCCASINS FERRAGAMO',
+  {name:'BLACK MOCCASINS FERRAGAMO',
   taille:42,
   price:400 ,
   color:'black',
@@ -176,7 +176,7 @@ $("#log").on("click",function(){
   type:'shoe',
   img:'../imgs/8.webp',
   gender:'man',
-  ref: 8
+  ref:8
   },
   {name: 'CLASS SHOE FOR WOMAN',
   taille:38,
@@ -186,7 +186,7 @@ $("#log").on("click",function(){
   type:'shoe',
   img:'../imgs/9webp',
   gender:'woman',
-  ref: 9
+  ref:9
   },
   {name: 'WHITE SHIRT FOR KID',
   taille:'s',
@@ -196,7 +196,7 @@ $("#log").on("click",function(){
   type:'t-shirt',
   img:'../imgs/10.jpg',
   gender:'kids',
-  ref: 10
+  ref:10
   },
   {name: 'COLORED VEST FOR KID',
   taille:'s-m',
@@ -236,7 +236,7 @@ $("#log").on("click",function(){
   type:'shoe',
   img:'../imgs/14.jpg',
   gender:'man',
-  ref: 14
+  ref:14
   },
   {name: 'baby shoe catterpillar',
   taille:18,
@@ -246,9 +246,9 @@ $("#log").on("click",function(){
   type:'shoe',
   img:'../imgs/15.webp',
   gender:'kids',
-  ref: 15
+  ref:15
   },
-  {name: 'lanvin debarder',
+  {name:'lanvin debarder',
   taille:'m-l',
   price:220,
   color:'brown',
@@ -258,7 +258,7 @@ $("#log").on("click",function(){
   gender:'kids',
   ref: 16
   },
-  {name: 'warm white sweet',
+  {name:'warm white sweet',
   taille:'s-m-l',
   price:100,
   color:'white',
@@ -266,7 +266,7 @@ $("#log").on("click",function(){
   type:'t-shirt',
   img:'../imgs/18.jpg',
   gender:'woman',
-  ref: 17
+  ref:17
   },
   {name: 'red  warm t-shirt',
   taille:'m-l-xl',
@@ -276,7 +276,7 @@ $("#log").on("click",function(){
   type:'t-shirt',
   img:'../imgs/19.jpg',
   gender:'man',
-  ref: 18
+  ref:18
   },
   {name: 'white warm t-shirt',
   taille:'m-l-xl',
@@ -286,7 +286,7 @@ $("#log").on("click",function(){
   type:'t-shirt',
   img:'../imgs/20.jpg',
   gender:'man',
-  ref: 19
+  ref:19
   },
   {name: 'red warm t-shirt',
   taille:'m-l-xl',
@@ -296,7 +296,7 @@ $("#log").on("click",function(){
   type:'t-shirt',
   img:'../imgs/21.jpg',
   gender:'man',
-  ref: 20
+  ref:20
   },
   {name: 'blue warm t-shirt',
   taille:'s-m-l',
@@ -306,7 +306,7 @@ $("#log").on("click",function(){
   type:'t-shirt',
   img:'../imgs/22.jpg',
   gender:'woman',
-  ref: 21
+  ref:21
   },
   {name: 'baby shoe',
   taille:20,
@@ -314,9 +314,9 @@ $("#log").on("click",function(){
   color:'pink',
   description:'high quality shoe that covers all the foot ',
   type:'shoe',
-  img:'../imgs/23.jpg',
+  img:'../imgs/23.jpeg',
   gender:'kids',
-  ref: 22
+  ref:22
   },
   ]
   
@@ -326,16 +326,16 @@ $("#log").on("click",function(){
     console.log("this is val",searchVal )
   $("#allCards").empty()
   for(var i = 0; i < datashop.length ; i++){
-      if( datashop[i].name === searchVal ){
+      if( datashop[i].name === searchVal || datashop[i].color === searchVal || datashop[i].gender === searchVal || datashop[i].ref === searchVal || datashop[i].type === searchVal || datashop[i].taille === searchVal || datashop[i].price === searchVal ){
 $("#allCards").append(`<div class="card">
   <img src=${datashop[i].img} alt=${datashop[i].type} style="width:100%">
   <h1>${datashop[i].name}</h1>
   <p class="price">${datashop[i].price}<p>"$"</p></p>
   <p>${datashop[i].description}</p>
-  <input class="quantity" type="text" placeholder="Quantity">
-  <p><button class="addBtn" value="${datashop[i].ref}"  >Add to Cart</button></p>
-  <p><button class="addBtn" value="${datashop[i].ref}"  >Show</button></p>
-</div>`)
+  <input class="quantity" id="${datashop[i].ref}+quantity" type="text" placeholder="Quantity">
+  <p><button class="addBtn" id="${datashop[i].ref}+add" onclick="add(${datashop[i].ref})"  >Add to Cart</button></p>
+  <p><button class="showBtn" id="${datashop[i].ref}+show" onclick="show(${datashop[i].ref})"  >Show</button></p>
+  </div>`)
     }  
  }
 })
@@ -350,9 +350,9 @@ $("#man").on("click",function(){
     <h1>${datashop[i].name}</h1>
     <p class="price">${datashop[i].price}<p>"$"</p></p>
     <p>${datashop[i].description}</p>
-    <input class="quantity" type="text" placeholder="Quantity">
-    <p><button class="addBtn" value="${datashop[i].ref}"  >Add to Cart</button></p>
-    <p><button class="addBtn" value="${datashop[i].ref}"  >Show</button></p>
+    <input class="quantity" id="${datashop[i].ref}"  type="number" placeholder="Quantity">
+    <p><button class="addBtn" id="${datashop[i].ref}+add" onclick="add(${datashop[i].ref})"  >Add to Cart</button></p>
+    <p><button class="showBtn" id="${datashop[i].ref}+show" onclick="show(${datashop[i].ref})"  >Show</button></p>
   </div>`)
       }  
    }
@@ -368,9 +368,9 @@ $("#woman").on("click",function(){
     <h1>${datashop[i].name}</h1>
     <p class="price">${datashop[i].price}<p>"$"</p></p>
     <p>${datashop[i].description}</p>
-    <input class="quantity" type="text" placeholder="Quantity">
-    <p><button class="addBtn" value="${datashop[i].ref}" id="${datashop[i].ref}+add" onclick="add(${datashop[i].ref})" >Add to Cart</button></p>
-    <p><button class="addBtn" value="${datashop[i].ref}"  >Show</button></p>
+    <input class="quantity" id="${datashop[i].ref}"  type="number" placeholder="Quantity">
+    <p><button class="addBtn" id="${datashop[i].ref}+add" onclick="add(${datashop[i].ref})"  >Add to Cart</button></p>
+    <p><button class="showBtn" id="${datashop[i].ref}+show" onclick="show(${datashop[i].ref})"  >Show</button></p>
   </div>`)
       }  
    }
@@ -386,42 +386,90 @@ $("#kids").on("click",function(){
     <h1>${datashop[i].name}</h1>
     <p class="price">${datashop[i].price}<p>"$"</p></p>
     <p>${datashop[i].description}</p>
-    <input class="quantity" type="text" placeholder="Quantity">
+    <input class="quantity" id="${datashop[i].ref}"  type="number" placeholder="Quantity">
     <p><button class="addBtn" id="${datashop[i].ref}+add" onclick="add(${datashop[i].ref})"  >Add to Cart</button></p>
-    <p><button class="addBtn" id="${datashop[i].ref}+show"  >Show</button></p>
+    <p><button class="showBtn" id="${datashop[i].ref}+show" onclick="show(${datashop[i].ref})"  >Show</button></p>
   </div>`)
-  console.log(datashop[i],datashop[i].price)
+  // console.log(datashop[i],datashop[i].price)
       }  
    }
 })
 
 
+var index = 0
+var qVal = $(".quantityof").val()
+var arrPrice = []
+var arrQuantity = []
+var sumqp=[]
+var thequantity = arrQuantity[index]
+var acc = 0
+   
+
 function add(id){
-  // var cartValue = $(".addBtn").val()
-  // var altsid = 
-  console.log("hi")
+  var val= $(`#${id}`).val()
+  console.log("this is val",val)
+  console.log(qVal,arrPrice,arrQuantity)
 var purchase =filter(datashop,function(e){
-  
   return id === e.ref
 })
 
-  // console.log(cartValue)
-// $("#myDropdown").empty()
-for (var i = 0 ; i<purchase.length ; i++){
- 
-    $("#myDropdown").append(`<p>${purchase[i].name}</p>
-    <p>${purchase[i].price}</p> <p>${"$"} <p><button class="remove" value="${purchase[i].ref}"  >X</button></p> <p id="rslt" ></p> `)
- 
-  
-}
-}
-// $(".remove").on("click",function(){
-//  var cartValue = $(".addBtn").val()
-//  var removeValue = $(".remove").val()
-//  if(cartValue === removeValue){
-//    $("#myDropdown").remove()
-//  }
+index++
+
+for (var i = 0 ; i<purchase.length ; i++){ 
+  var ref = $(`#${datashop[i].ref}`).val()
+  acc += val * purchase[i].price 
+  $("#myDropdown").append(`<p>${purchase[i].name}</p>
+    <p>${purchase[i].price}</p> <p>"$" </p>
+    <p >${$(`#${id}`).val()} </p> `)
+    $("#totalprice").text("Total: "+acc)
+   acc += val * purchase[i].price
+    arrPrice.push(purchase[i].price)
+    arrQuantity.push(val)
+    console.log(arrPrice,arrQuantity)
+    // for(var q = 0 ; q<arrQuantity.length;q++){
+    //   for(var p = 0 ; p<arrPrice.length;p++){
+    //     sumqp.push(arrQuantity[q]*arrPrice[p])
+    //     $("#myDropdown").append(`<p>${sumqp[0]}</p>`)  
+    //     $(".quantityof").empty() 
+      }
+    }
+   $("#cancel").on("click",function(){
+    $("#myDropdown").empty()
+   })
 // }
+// }
+
+function show(id){
+  $("#showinfo").empty()
+  var showInfo = filter (datashop,function(e){
+    return id === e.ref
+  })
+  for (var i = 0 ; i<showInfo.length ; i++){
+    $("#showinfo").append(`<div class="card">
+    <img src=${showInfo[i].img} alt=${showInfo[i].type} style="width:100%">
+    <h1>${showInfo[i].name}</h1>
+    <p class="price">${showInfo[i].price}<p>"$"</p></p>
+    <p>${showInfo[i].description}</p>
+    <button id="btncomm" >Send</button>
+  <input id="writecomm" type="text">
+  <button id="closeshow" >X</button>
+    <input class="quantity" id="${datashop[i].ref}"  type="number" placeholder="Quantity">
+    <p><button class="addBtn" id="${showInfo[i].ref}+add" onclick="add(${showInfo[i].ref})"  >Add to Cart</button></p>
+  </div>`)
+  var commVal = $("#writecomm").val()
+  $("#closeshow").on("click",function(){
+    $("#showinfo").append(`<p class="mycomm" >${$("#writecomm").val()}</p>`)
+    $("#closeshow").on("click",function(){
+      $("#showinfo").empty()
+    })
+  })
+  }
+}
+
+
+
+
+
 
 
 
