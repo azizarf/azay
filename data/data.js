@@ -7,7 +7,7 @@ color:'black',
 description: 'natural shoe, made of leather,cover half foot',
 type:'shoes',
 img:'../1.jpg',
-gender:'women'
+gender:'woman'
 },
 {name: 'MOCASSINS GUCCI JORDAAN CUIR',
 taille: 38,
@@ -16,7 +16,7 @@ color:'black',
 description:'The classic spirit of this model is stimulated by the contrast between the architecture of the shoe and the thickness of a highly structured overhanging sole.',
 type:'shoes',
 img:'../2.jpg.webp',
-gender:'women',
+gender:'woman',
 },
 {name: 'RED T-SHIRT FOR MAN',
 taille:'xl',
@@ -52,7 +52,7 @@ color:'black',
 description:'This footwear masterpiece effortlessly blends classic design with modern comfort',
 type:'shoe',
 img:'../6.webp',
-gender:'women'
+gender:'woman'
 },
 {name: 'WHITE DEBARDER',
 taille:'l-xl-xxl',
@@ -97,7 +97,7 @@ color:'green',
 description:'cool vest for your favorite children , for the coldest nights',
 type:'t-shirt',
 img:'../11.jpg',
-gender:'man'
+gender:'kids'
 },
 {name: 'BLUE KENZO T-SHIRT',
 taille:'s',
@@ -106,7 +106,7 @@ color:'blue',
 description:'only for you only for the best kid full sleeves',
 type:'t-shirt',
 img:'../12.jpg',
-gender:'man'
+gender:'kids'
 },
 {name: 'RED KENZO T-SHIRT',
 taille:'s',
@@ -115,7 +115,7 @@ color:'red',
 description:'red t-shirt with full sleeves and 100% cotton',
 type:'t-shirt',
 img:'../13.jpg',
-gender:'man'
+gender:'kids'
 },
 {name: 'black class shoe',
 taille:42,
@@ -142,7 +142,7 @@ color:'brown',
 description:'for your coldest nights get warm high quality t-shirt',
 type:'t-shirt',
 img:'../17.jpg',
-gender:'man'
+gender:'kids'
 },
 {name: 'warm white sweet',
 taille:'s-m-l',
