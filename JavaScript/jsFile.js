@@ -115,7 +115,7 @@ $("#log").on("click",function(){
   description:'The classic spirit of this model is stimulated by the contrast between the architecture of the shoe and the thickness of a highly structured overhanging sole.',
   type:'shoes',
   img:'../imgs/2.jpg.webp',
-  gender:'woman',
+  gender:'women',
   ref:2
   },
   {name: 'RED T-SHIRT FOR MAN',
@@ -125,7 +125,7 @@ $("#log").on("click",function(){
   description:'Plain Red 100% Cotton short Sleeve T Shirt · Fit Type: Regular Fit · 180GSM, 100% Premium Cotton (Bio-Washed & Pre-Shrunk for Minimum shrinkage)',
   type:'t-shirt',
   img:'../imgs/3.jpg',
-  gender:'man',
+  gender:'men',
   ref: 3
   },
   {name:'YELLOW-GREEN WITHOUT BAND',
@@ -135,7 +135,7 @@ $("#log").on("click",function(){
   description:'s Crew Neck full Sleeve Silhouette T-Shirt (Neon Yellow). SKU D0250P03500C. Shipping calculated at checkout.',
   type:'t-shirt',
   img:'../imgs/4.jpeg',
-  gender:'woman',
+  gender:'women',
   ref:4
   },
   {name:'MOCASSINS GUCCI JORDAAN LAIN',
@@ -145,7 +145,7 @@ $("#log").on("click",function(){
   description:'Vibrant yellow color that exudes energy and optimism ,High-quality construction for comfort and durability',
   type:'shoe',
   img:'../imgs/5.jpg',
-  gender:'woman',
+  gender:'women',
   ref:5
   },
   {name: 'BASKETT TIMBERLAND',
@@ -155,7 +155,7 @@ $("#log").on("click",function(){
   description:'This footwear masterpiece effortlessly blends classic design with modern comfort',
   type:'shoe',
   img:'../imgs/6.webp',
-  gender:'woman',
+  gender:'women',
   ref: 6
   },
   {name:'WHITE DEBARDER',
@@ -165,7 +165,7 @@ $("#log").on("click",function(){
   description:'white debarder for ',
   type:'t-shirt',
   img:'../imgs/7.jpg',
-  gender:'man',
+  gender:'men',
   ref:7
   },
   {name:'BLACK MOCCASINS FERRAGAMO',
@@ -175,7 +175,7 @@ $("#log").on("click",function(){
   description:'high quality shoe for your class nights',
   type:'shoe',
   img:'../imgs/8.webp',
-  gender:'man',
+  gender:'men',
   ref:8
   },
   {name: 'CLASS SHOE FOR WOMAN',
@@ -185,7 +185,7 @@ $("#log").on("click",function(){
   description:'class shoe for woman can wear it everyday',
   type:'shoe',
   img:'../imgs/9webp',
-  gender:'woman',
+  gender:'women',
   ref:9
   },
   {name: 'WHITE SHIRT FOR KID',
@@ -235,7 +235,7 @@ $("#log").on("click",function(){
   description:'for your meets black high quality shoe',
   type:'shoe',
   img:'../imgs/14.jpg',
-  gender:'man',
+  gender:'men',
   ref:14
   },
   {name: 'baby shoe catterpillar',
@@ -265,7 +265,7 @@ $("#log").on("click",function(){
   description:'high quality t-shirt with full sleeves 100%',
   type:'t-shirt',
   img:'../imgs/18.jpg',
-  gender:'woman',
+  gender:'women',
   ref:17
   },
   {name: 'red  warm t-shirt',
@@ -275,7 +275,7 @@ $("#log").on("click",function(){
   description:'full sleeves t-shirt 100%cotton medium quality',
   type:'t-shirt',
   img:'../imgs/19.jpg',
-  gender:'man',
+  gender:'men',
   ref:18
   },
   {name: 'white warm t-shirt',
@@ -285,7 +285,7 @@ $("#log").on("click",function(){
   description:'full sleeves t-shirt 100%lain medium quality',
   type:'t-shirt',
   img:'../imgs/20.jpg',
-  gender:'man',
+  gender:'men',
   ref:19
   },
   {name: 'red warm t-shirt',
@@ -295,7 +295,7 @@ $("#log").on("click",function(){
   description:'full sleeves t-shirt 100% cotton medium quality',
   type:'t-shirt',
   img:'../imgs/21.jpg',
-  gender:'man',
+  gender:'men',
   ref:20
   },
   {name: 'blue warm t-shirt',
@@ -305,7 +305,7 @@ $("#log").on("click",function(){
   description:'full sleeves pull for woman 100% cotton made in vietnam',
   type:'t-shirt',
   img:'../imgs/22.jpg',
-  gender:'woman',
+  gender:'women',
   ref:21
   },
   {name: 'baby shoe',
@@ -341,10 +341,10 @@ $("#allCards").append(`<div class="card">
 })
 
 // Filter men
-$("#man").on("click",function(){
+$("#men").on("click",function(){
   $("#allCards").empty()
   for(var i = 0; i < datashop.length ; i++){
-        if( datashop[i].gender === "man" ){
+        if( datashop[i].gender === "men" ){
  $("#allCards").append(`<div class="card">
     <img src=${datashop[i].img} alt=${datashop[i].type} style="width:100%">
     <h1>${datashop[i].name}</h1>
@@ -359,10 +359,10 @@ $("#man").on("click",function(){
 })
 
 // Filter women
-$("#woman").on("click",function(){
+$("#women").on("click",function(){
   $("#allCards").empty()
   for(var i = 0; i < datashop.length ; i++){
-        if( datashop[i].gender === "woman" ){
+        if( datashop[i].gender === "women" ){
  $("#allCards").append(`<div class="card">
     <img src=${datashop[i].img} alt=${datashop[i].type} style="width:100%">
     <h1>${datashop[i].name}</h1>
@@ -440,12 +440,14 @@ for (var i = 0 ; i<purchase.length ; i++){
 // }
 
 function show(id){
-  $("#showinfo").empty()
+  $(window).scrollTop(0)
+
+  $(".showinfo").empty()
   var showInfo = filter (datashop,function(e){
     return id === e.ref
   })
   for (var i = 0 ; i<showInfo.length ; i++){
-    $("#showinfo").append(`<div class="card">
+    $(".showinfo").append(`<div class="card">
     <img src=${showInfo[i].img} alt=${showInfo[i].type} style="width:100%">
     <h1>${showInfo[i].name}</h1>
     <p class="price">${showInfo[i].price}<p>"$"</p></p>
@@ -458,9 +460,9 @@ function show(id){
   </div>`)
   var commVal = $("#writecomm").val()
   $("#closeshow").on("click",function(){
-    $("#showinfo").append(`<p class="mycomm" >${$("#writecomm").val()}</p>`)
+    $(".showinfo").append(`<p class="mycomm" >${$("#writecomm").val()}</p>`)
     $("#closeshow").on("click",function(){
-      $("#showinfo").empty()
+      $(".showinfo").empty()
     })
   })
   }

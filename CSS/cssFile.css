@@ -4,13 +4,24 @@ body {
   margin: 0;
   padding: 0;
   background-color: whitesmoke;
+  transition: 0.2s
 }
 #allCards {
-  margin-top: 50px;
+  position: relative;
+  top: 50px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.dropbtn:hover {
+  background-color: red;
 }
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 300px;
+    height: 700px;
     margin: auto;
     text-align: center;
     font-family: arial;
@@ -20,7 +31,13 @@ body {
     color: grey;
     font-size: 22px;
   }
-  
+  .img-card {
+    height: 300px;
+  }
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
   .card button {
     border: none;
     outline: 0;
@@ -39,13 +56,14 @@ body {
 
  
  
-/* .topnav {
+.topnav {
   overflow: hidden;
   background-color: #e9e9e9;
-} */
+
+}
 
 
-/* .topnav a {
+.topnav a {
   float: left;
   display: block;
   color: black;
@@ -53,43 +71,43 @@ body {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-} */
+}
 
 
-/* .topnav a:hover {
+.topnav a:hover {
   background-color: #ddd;
   color: black;
-} */
+}
 
 
-/* .topnav a.active {
+.topnav a.active {
   background-color: orange;
   color: white;
-} */
+}
 
 /* Style the search box inside the navigation bar */
-/* .topnav input {
+.topnav input {
   float: right;
   padding: 6px;
   border: none;
   margin-top: 8px;
   margin-right: 16px;
   font-size: 17px;
-} */
+}
 
 /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
 
-  /* .topnav a, .topnav input {
+  .topnav a, .topnav input {
     float: none;
     display: block;
     text-align: left;
     width: 100%;
     margin: 0;
     padding: 14px;
-  } */
-  /* .topnav input[type=text] {
+  }
+  .topnav input[type=text] {
     border: 1px solid #ccc;
-  } */
+  }
 
 .nav-bar {
   display: flex;
@@ -98,6 +116,7 @@ body {
   gap: 200px;
   height: 100px;
   background-color: orange;
+
 }
 
 ul {
@@ -105,8 +124,6 @@ ul {
   justify-content: center;
   align-items: center;
   gap: 50px;
-  position: absolute;
-  right:60%
 }
 li {
   list-style: none;
@@ -115,15 +132,15 @@ li {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* #pageLogin{
+#pageLogin{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 12px;
-} */
+}
 
-/* .dropdown .dropbtn {
+.dropdown .dropbtn {
   font-size: 20px;  
   border: none;
   outline: none;
@@ -132,8 +149,10 @@ li {
   font-family: inherit;
   margin-right: 90px;
   font-size: 18px;
-} */
-
+}
+.dropdown .dropbtn:hover {
+  background-color: red;
+}
 /* .navbar a:hover, .dropdown:hover .dropbtn {
   background-color:transparent;
 
@@ -141,86 +160,121 @@ li {
 
 
 .dropdown-content {
-  background-color:whitesmoke;
-  border-radius: 20px;
-  border: 1px solid;
-  display: none;
   position: absolute;
-  /* min-width: 150px; */
+  background-color: #f9f9f9;
+  min-width: 450px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
-  right: 250px;
-  top: 14%;
+  right: 97px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  align-items: start;
+  display: none;
+  }
+  .basket-card {
+    position: relative;
+    left: 10px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 150px;
   }
 
 
-/* .dropdown-content a {
+.dropdown-content a {
   float: none;
   color: black;
   padding: 12px 16px;
   text-decoration: none;
-  display: block;
   text-align: left;
-} */
+}
 
-/* .dropdown-content a:hover {
+.dropdown-content a:hover {
   background-color: black;
-} */
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.card-element {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  gap: 30px;
+  border-bottom: #000 1px solid;
+} 
+.card-element p {
+  font-size: 16px;
+  background-color: rgb(255, 255, 255);
+  padding: 12px 15px;
 
+}
+#cancel {
+  background-color: #000;
+  color: #ffffff;
+  padding: 10px 25px;
+}
+#cancel {
+  background-color: #000;
+  color: #ffffff;
+  padding: 10px 25px;
+}
 input {
-  width: 270px;
-  height: 55px;
-  border-radius: 20px;
+  width: 220px;
+  height: 35px;
+  padding-left: 15px;
+  border-radius: 5px;
   border: none;
-  position: absolute;
-  right: 40%;
-  top:3%;
-  background-color: whitesmoke;
-  
 }
 
 .search-btn {
-  height: 57px;
-  width: 150px;
-  border-radius: 20px;
+  height: 35px;
+  width: 80px;
+  border-radius: 5px;
   border: none;
-  position: absolute;
-  right:30%;
-  top:3%
 }
+
 .search-btn:hover {
   background-color: rgb(248, 146, 146);
 }
-
-#allCards {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-
+.logo {
+  position: relative;
+  left: 70px;
 }
-
-/* .logo {
-  position: absolute;
-  left: 0%;
-  height: 14%;
-  width: 150px;
-} */
-
-/* .search {
+.search {
   position: relative;
   left: 150px;
-  background-color: black;
-} */
-#baskett{
-  width: 150px;
-  position: absolute;
-  top: 0%;
-  right:19%; 
-  cursor: pointer;
 }
-/* #soldes{
-  
-} */
+#allCards1{
+  margin-top: 150px;
+  margin-left: 30px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 50px;
+
+}
+.card1{
+
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+.card1:hover{
+  transform: scale(1.1);
+
+}
+#allCards1 img{
+ width: 300px;
+ height: 300px;
+
+}
+.solde{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: orange;
+}
+
+
+
